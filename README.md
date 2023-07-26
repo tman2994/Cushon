@@ -8,7 +8,8 @@ Explanation of code has been commented
 
 The purpose of this code project is to automate the bespoken application for a website and mobile application.
 The programming language I’ll be using will be Java a high-level programming language and the library/package tools I’ll be using will be TestNG
-a testing maintenance API tool, selenium a web driver API automation tool, and Appium a mobile API automation tool,
+a testing maintenance API tool, selenium a web driver API automation tool, and Appium a mobile API automation tool, Appium Inspector API to 
+get information on application ids, xpath ect.
 Maven API for dependency control, Microsoft JDBC API for SQL database manipulation.
 
 The framework will be based on the Page object model, this is to keep with the DRY (Do-not Repeat Yourself) principle.
