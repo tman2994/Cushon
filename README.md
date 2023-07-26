@@ -30,5 +30,7 @@ Prerequisites:
 npm install npm@latest -g
 
 npm install -g appium@next
+
 appium driver install uiautomator2
+
 appium driver install xcuitest
