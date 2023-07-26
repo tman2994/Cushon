@@ -1,4 +1,6 @@
-Read Me
+Read Me:
+
+This is purpose of explain framework decision made for interview purpose, explanation of code has been carefully commented
 
 The purpose of this code is to automate the bespoken application for a website and mobile application.
 The programming language I’ll be using will be Java a high-level programming language and the library tools I’ll be using will be TestNG
@@ -23,3 +25,8 @@ A folder called Backend where ill execute all SQL server code and finally a fold
 an image outcome of every test.
 
 Prerequisites:
+npm install npm@latest -g
+
+npm install -g appium@next
+appium driver install uiautomator2
+appium driver install xcuitest
