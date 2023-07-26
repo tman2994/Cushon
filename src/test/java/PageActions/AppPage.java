@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.annotations.Test;
 
-public class StorePage extends BasePage {
+public class AppPage extends BasePage {
 
     //creates instance of web selector
     private final By clickEnterAmount = By.id("//*[@id='clickEnterAmountBlankSpace']");
@@ -18,7 +18,7 @@ public class StorePage extends BasePage {
     private final By EnterPercentage = By.id("//*[@id='clickEnterAmountBlankSpace']");
 
     //driver connection
-    public  StorePage(WebDriver driver) {
+    public AppPage(WebDriver driver) {
         super(driver);
     }
 

@@ -1,13 +1,13 @@
 package Main;
 
-import PageActions.StorePage;
+import PageActions.AppPage;
 import SeleniumBase.LaunchExitSelenium;
 
 import org.testng.annotations.Test;
 import PageActions.HomePage;
 
 //main class to call selenium
-public class webpages extends LaunchExitSelenium {
+public class WebPages extends LaunchExitSelenium {
 
         @Test
         public void SeleniumTest() throws InterruptedException {
@@ -17,7 +17,7 @@ public class webpages extends LaunchExitSelenium {
 
             HomePage homePage = new HomePage(driver);
             homePage.clickStoreMenuLink();
-            StorePage storePage = new StorePage(driver);
+            AppPage storePage = new AppPage(driver);
             storePage.ClickEnterAmount();
             storePage.enterAmount("50");
             storePage.EnterPercent("35%");

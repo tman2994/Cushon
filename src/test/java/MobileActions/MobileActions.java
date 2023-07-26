@@ -1,14 +1,11 @@
 package MobileActions;
 
-import com.google.common.collect.ImmutableMap;
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.annotations.Test;
 
-public class Gestures {
+public class MobileActions {
     @Test
     public static void Clicks(AppiumDriver driver) throws InterruptedException {
 
