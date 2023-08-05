@@ -1,5 +1,4 @@
-# Cushon
-Interview Task
+
 Read Me:
 
 please find code in Master branch -> Cushon/src/test/java/
