@@ -15,6 +15,6 @@ public class MobilePages   {
         //created instance when called initializes methods
         MobileActions.Clicks(driver);
         MobileActions.percentage(driver);
-        MobileActions.percentage(driver);
+
     }
 }
